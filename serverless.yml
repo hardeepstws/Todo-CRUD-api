@@ -42,11 +42,8 @@ functions:
     handler: wsgi_handler.handler
     events:
       - http: ANY /
-      - http: 'ANY {proxy+}'
+      - http: 'ANY /{proxy+}'
 
-
-environment:
-    TODO_TABLE: ${self:custom.tableName}
 
 resources:
   Resources:

@@ -1,0 +1,6 @@
+venv
+.serverless-wsgi
+node_modules
+.dynamodb
+
+__pycache__
